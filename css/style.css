@@ -120,6 +120,31 @@ main {
     font-weight: 700;
 }
 
+.tokenomics-main{
+    border-left: 5px solid #fff;
+    height: 100%;
+    padding: 0 1em;
+}
+
+.toke-item{
+    padding: 1rem;
+}
+
+.toke-item > h2 {
+    font-size: 25px !important;
+    margin-top: 15px;
+    margin-bottom: -0px;
+}
+
+.toke-item > p {
+    font-size: 22px;
+}
+
+.toke-img{
+    width: 100px;
+    height: auto;
+}
+
 /* Ecosystem */
 
 .eco-card {
