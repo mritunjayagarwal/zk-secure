@@ -1,12 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>ZK Secure</title>
 </head>
+
 <body>
-    ZK Secure
+
+    <header>
+        <nav class="navbar navbar-expand-lg py-3 m-0" data-aos="fade-down" data-aos-delay="800">
+            <!-- Container wrapper -->
+            <!-- Navbar brand -->
+            <a class="navbar-brand me-2" href="#">
+                <img src="./img/logo.png" style="width: 30px; height: auto;margin-top: -10px" alt=""> ZK Secure
+            </a>
+
+            <!-- Toggle button -->
+            <button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse text-white" id="navbarText">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="px-3 pt-2 btn-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#project" class="px-3 pt-2 btn-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#buy" class="px-3 pt-2 btn-link">
+                            How to Buy
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#bott" class="px-3 pt-2 btn-link">
+                            Socials
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="">
+                            <button type="button" class="px-3 btn pt-2 px-5 uni-btn" data-toggle="modal"
+                                data-target="#exampleModal" style="font-size: 15px;margin-top: -8px; font-weight: 600;">
+                                Buy on Uniswap
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <h2>ZK SECURE</h2>
+                    <h1>Privacy at Your Fingertips</h1>
+
+                    <p>Contract : 0x8790f2fc7Ca2e7Db841307FB3f4e72a03Baf7b47</p>
+
+                    <div class="d-flex justify-content-center">
+                        <button class = "hero-btn">Buy Now</button>
+                        <button class = "hero-btn">Documentation</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1 class="text-center">GET IN TOUCH</h1>
+                <div class="">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="touch-card">
+                                <p><i class="fa fa-telegram"></i> Telegram</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h2>ZK Secure</h2>
+                        <h1>WHAT IS?</h1>
+                        <p>ZK Secure is a cryptocurrency project that employs the ZK-SNARK
+                            protocol to enable concise and efficient proofs for secure and private
+                            transactions. What sets it apart is its utilization of ZK-AnonSNARK
+                            schemes, which guarantees anonymity for both sender and receiver,
+                            and transaction amount confidentiality. This technology is built on a
+                            foundation of trustlessness, decentralization, and transparency, with
+                            no need for simultaneous relations between provers and verifiers,
+                            eliminating the need for a trusted setup step.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <h1>TOKENOMICS</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ecosystem">
+            <div class="container">
+                <h1 class="text-center">ECOSYSTEM</h1>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="eco-card">
+                            <img src="./img/icons/3.png" class="eco-img" alt="">
+                            <h2>ZK-SNARK PROTOCOL</h2>
+                            <p>ZK Secure operates on the principles of trustlessness,
+                                decentralization, and transparency through the use of the
+                                ZK-SNARK protocol. It utilizes a zero-knowledge proof
+                                system to generate succinct and effective proofs that can
+                                be readily verified by third parties.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="eco-card">
+                            <img src="./img/icons/3.png" class="eco-img" alt="">
+                            <h2>ZK-SNARK PROTOCOL</h2>
+                            <p>ZK Secure operates on the principles of trustlessness,
+                                decentralization, and transparency through the use of the
+                                ZK-SNARK protocol. It utilizes a zero-knowledge proof
+                                system to generate succinct and effective proofs that can
+                                be readily verified by third parties.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="eco-card">
+                            <img src="./img/icons/3.png" class="eco-img" alt="">
+                            <h2>ZK-SNARK PROTOCOL</h2>
+                            <p>ZK Secure operates on the principles of trustlessness,
+                                decentralization, and transparency through the use of the
+                                ZK-SNARK protocol. It utilizes a zero-knowledge proof
+                                system to generate succinct and effective proofs that can
+                                be readily verified by third parties.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="eco-card">
+                            <img src="./img/icons/3.png" class="eco-img" alt="">
+                            <h2>ZK-SNARK PROTOCOL</h2>
+                            <p>ZK Secure operates on the principles of trustlessness,
+                                decentralization, and transparency through the use of the
+                                ZK-SNARK protocol. It utilizes a zero-knowledge proof
+                                system to generate succinct and effective proofs that can
+                                be readily verified by third parties.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>
+                            Incomparable privacy
+                        </h1>
+                        <p>
+                            ZK Secure crypto mixer is a powerful tool that can help users to increase
+                            the privacy and security of their cryptocurrency transactions. By mixing a
+                            users Ethereum in a homogenous pool, this tool can obfuscate the
+                            transaction trail and enhance anonymity and security. This mixer can be
+                            especially valuable for those who want to safeguard their financial
+                            privacy or are worried about potential hacking or other malicious
+                            activities. With ZK Secure mixer, you can ensure that your transactions
+                            stay confidential and secure.
+                        </p>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="./img/icons/7.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class = "container">
+                <h1>Our Roadmap</h1>
+                <div class = "col-lg-4">
+                    <div class = "roadmap-card">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: purple;
+    color: #fff;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* Hero Section */
+
+.hero-btn{
+    width: 200px;
+    padding: 20px 0;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+/* Get in Touch section */
+
+.touch-card {
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border: 2px solid pink;
+    color: #fff;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+/* About ZK Secure */
+
+
+/* Ecosystem */
+
+.eco-card {
+    background: #000;
+    padding: 1em;
+    width: 100%;
+    border-radius: 50px;
+    border: 3px solid pink;
+    margin-top: 20px;
+}
+
+.eco-img {
+    width: 100px;
+    height: auto;
+}
