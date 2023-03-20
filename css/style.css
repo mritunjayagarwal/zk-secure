@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,33 +10,50 @@
 
 body {
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
     padding: 100px 0;
 }
 
-main{
+.section-head{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+main {
     background: url(../img/main-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.navbar{
+.navbar {
     transition: 0.5s;
 }
 
-.navbar li a{
+.navbar li a {
     color: #fff;
+    transition: 0.3s;
 }
 
-.navbar-brand{
+.navbar li a:hover{
+    color: pink;
+    text-decoration: none;
+}
+
+.navbar li a:active, .navbar li a:visited{
+    text-decoration: none;
+}
+
+.navbar-brand {
     color: #fff;
 }
 
 /* Hero Section */
 
-.hero-section{
+.hero-section {
     background: url(../img/hero-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,14 +63,40 @@ main{
     justify-content: center;
 }
 
-.hero-btn{
+.hero-tag{
+    font-weight: 600;
+}
+
+.hero-main{
+    font-weight: 700 !important;
+}
+
+.hero-btn,
+.btn-grad {
     width: 200px;
     padding: 20px 0;
     margin: 10px;
     border-radius: 20px;
     border: none;
     outline: none;
+    font-weight: 700;
+    border: 1px solid pink;
 }
+
+.btn-grad {
+    background-image: linear-gradient(to right, #8754C8 0%, #EC6EAD  51%, #8754C8  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #fff;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
 
 /* Get in Touch section */
 
@@ -59,14 +106,19 @@ main{
     justify-content: center;
     align-items: center;
     height: 150px;
-    border: 2px solid pink;
+    border: 3px solid pink;
     color: #fff;
     font-size: 2em;
     margin-top: 20px;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
 /* About ZK Secure */
 
+.about-para{
+    font-weight: 700;
+}
 
 /* Ecosystem */
 
@@ -76,6 +128,11 @@ main{
     width: 100%;
     border-radius: 50px;
     border: 3px solid pink;
+    margin-top: 30px;
+}
+
+.eco-card > h2{
+    font-weight: 700;
     margin-top: 20px;
 }
 
@@ -84,18 +141,36 @@ main{
     height: auto;
 }
 
+/* Privacy */
+
+#privacy{
+    padding: 50px 0 50px 0;
+    background: rgb(174, 89, 219, 0.5);
+}
+
+.privacy-para{
+    margin-top: -30px;
+    /* font-size: 17px; */
+    font-weight: 600;
+}
+
+
 /* Roadmap section */
 
-#roadmap > .container{
+#roadmap>.container {
     max-width: 95%;
     margin: 0 auto;
 }
 
-.roadmap-card{
+.roadmap-card {
     padding: 2rem;
     border: 2px solid #fff;
     border-radius: 50px;
     backdrop-filter: blur(10px);
+}
+
+.roadmap-card > h2{
+    font-weight: 600;
 }
 
 .roadmap-card ul li {
@@ -105,17 +180,17 @@ main{
 
 /* Footer Section */
 
-footer{
+footer {
     padding: 1em 0 0 0;
     background: #180D24;
 }
 
-.footer-list li{
+.footer-list li {
     display: inline;
     margin: 0 10px;
 }
 
-.footer-btn{
+.footer-btn {
     border-radius: 10px;
     margin: -10px 10px 0 10px !important;
     width: 120px;
