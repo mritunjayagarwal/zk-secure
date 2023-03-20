@@ -18,6 +18,10 @@ main{
     background-position: center;
 }
 
+.navbar{
+    transition: 0.5s;
+}
+
 .navbar li a{
     color: #fff;
 }
@@ -50,7 +54,7 @@ main{
 /* Get in Touch section */
 
 .touch-card {
-    background: #000;
+    background: #180D24;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +71,7 @@ main{
 /* Ecosystem */
 
 .eco-card {
-    background: #000;
+    background: #180D24;
     padding: 1em;
     width: 100%;
     border-radius: 50px;
@@ -78,4 +82,41 @@ main{
 .eco-img {
     width: 100px;
     height: auto;
+}
+
+/* Roadmap section */
+
+#roadmap > .container{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.roadmap-card{
+    padding: 2rem;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+
+.roadmap-card ul li {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* Footer Section */
+
+footer{
+    padding: 1em 0 0 0;
+    background: #180D24;
+}
+
+.footer-list li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.footer-btn{
+    border-radius: 10px;
+    margin: -10px 10px 0 10px !important;
+    width: 120px;
 }
