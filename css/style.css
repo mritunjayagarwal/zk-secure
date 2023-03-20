@@ -50,6 +50,9 @@ main {
 .navbar-brand {
     color: #fff;
 }
+.navbar-brand:hover {
+    color: #fff;
+}
 
 /* Hero Section */
 

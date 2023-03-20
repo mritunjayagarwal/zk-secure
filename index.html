@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/logo.png" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <title>ZK Secure</title>
 </head>
@@ -15,7 +17,7 @@
 <body>
 
     <header class="hero-section">
-        <nav class="navbar navbar-expand-lg fixed-top py-3 m-0" data-aos="fade-down" data-aos-delay="800">
+        <nav class="navbar navbar-expand-lg fixed-top py-3 m-0">
             <!-- Container wrapper -->
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="#">
@@ -67,14 +69,18 @@
         <section>
             <div class="container">
                 <div class="text-center">
-                    <h2 class = "hero-tag">ZK SECURE</h2>
-                    <h1 class = "hero-main">Privacy at Your Fingertips</h1>
+                    <h2 class="hero-tag" data-aos="fade" data-aos-duration="1000">ZK SECURE</h2>
+                    <h1 class="hero-main" data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Privacy at Your Fingertips</h1>
 
-                    <p>Contract : 0x8790f2fc7Ca2e7Db841307FB3f4e72a03Baf7b47</p>
+                    <p data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Contract : 0x8790f2fc7Ca2e7Db841307FB3f4e72a03Baf7b47</p>
 
                     <div class="d-flex justify-content-center">
-                        <button class="btn-grad">Buy Now</button>
-                        <button class="hero-btn">Documentation</button>
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+                            <button class="btn-grad">Buy Now</button>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                            <button class="hero-btn">Documentation</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -84,9 +90,9 @@
     <main>
         <section>
             <div class="container">
-                <h1 class="text-center section-head">Get in touch</h1>
+                <h1 class="text-center section-head" data-aos="fade" data-aos-duration="1000">Get in touch</h1>
                 <div class="">
-                    <div class="row d-flex justify-content-center">
+                    <div class="row d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000" >
                         <div class="col-lg-3">
                             <div class="touch-card">
                                 <p><i class="fa fa-telegram"></i> Telegram</p>
@@ -126,9 +132,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
-                        <h3 class = "hero-tag">ZK Secure</h3>
-                        <h1 class = "hero-main">WHAT IS?</h1>
-                        <p class="about-para">ZK Secure is a cryptocurrency project that employs the ZK-SNARK
+                        <h3 class="hero-tag" data-aos="fade" data-aos-duration="1000">ZK Secure</h3>
+                        <h1 class="hero-main" data-aos="fade" data-aos-duration="1000" data-aos-delay="400">WHAT IS?</h1>
+                        <p class="about-para" data-aos="fade" data-aos-duration="1000" data-aos-delay="800">ZK Secure is a cryptocurrency project that employs the ZK-SNARK
                             protocol to enable concise and efficient proofs for secure and private
                             transactions. What sets it apart is its utilization of ZK-AnonSNARK
                             schemes, which guarantees anonymity for both sender and receiver,
@@ -138,18 +144,18 @@
                             eliminating the need for a trusted setup step.</p>
                     </div>
                     <div class="col-lg-6 py-3">
-                        <div class = "tokenomics-main">
-                            <h1 class = "hero-main text-center">TOKENOMICS</h1>
-                            <div class = "d-flex justify-content-center mt-5">
-                                <div class = "toke-item">
-                                    <img src="./img/icons/1.png" class = "toke-img" alt="">
-                                    <h2 class = "hero-tag">1 Billion</h2>
+                        <div class="tokenomics-main">
+                            <h1 class="hero-main text-center" data-aos="fade" data-aos-duration="1000" data-aos-delay="1100">TOKENOMICS</h1>
+                            <div class="d-flex justify-content-center mt-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1200">
+                                <div class="toke-item">
+                                    <img src="./img/icons/1.png" class="toke-img" alt="">
+                                    <h2 class="hero-tag">1 Billion</h2>
                                     <p>Total Supply</p>
                                 </div>
-                                <div class = "toke-item">
-                                    <img src="./img/icons/4.png" class = "toke-img" alt="">
-                                    <h2 class = "hero-tag text-center">5/5</h2>
-                                    <p class = "text-center">Tax</p>
+                                <div class="toke-item">
+                                    <img src="./img/icons/4.png" class="toke-img" alt="">
+                                    <h2 class="hero-tag text-center">5/5</h2>
+                                    <p class="text-center">Tax</p>
                                 </div>
                             </div>
                         </div>
@@ -160,10 +166,10 @@
 
         <section id="ecosystem">
             <div class="container">
-                <h1 class="text-center section-head">ECOSYSTEM</h1>
+                <h1 class="text-center section-head" data-aos="fade" data-aos-duration="1000">ECOSYSTEM</h1>
                 <div class="row">
                     <div class="col-lg-6">
-                        <div class="eco-card">
+                        <div class="eco-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <img src="./img/icons/3.png" class="eco-img" alt="">
                             <h2>ZK-SNARK PROTOCOL</h2>
                             <p>ZK Secure operates on the principles of trustlessness,
@@ -174,7 +180,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="eco-card">
+                        <div class="eco-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <img src="./img/icons/3.png" class="eco-img" alt="">
                             <h2>ZK-SNARK PROTOCOL</h2>
                             <p>ZK Secure operates on the principles of trustlessness,
@@ -185,7 +191,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="eco-card">
+                        <div class="eco-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <img src="./img/icons/3.png" class="eco-img" alt="">
                             <h2>ZK-SNARK PROTOCOL</h2>
                             <p>ZK Secure operates on the principles of trustlessness,
@@ -196,7 +202,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="eco-card">
+                        <div class="eco-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <img src="./img/icons/3.png" class="eco-img" alt="">
                             <h2>ZK-SNARK PROTOCOL</h2>
                             <p>ZK Secure operates on the principles of trustlessness,
@@ -210,15 +216,15 @@
             </div>
         </section>
 
-        <section id = "privacy">
+        <section id="privacy">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 d-flex align-items-center">
                         <div>
-                            <h1 class = "section-head">
+                            <h1 class="section-head">
                                 Incomparable privacy
                             </h1>
-                            <p class = "privacy-para">
+                            <p class="privacy-para">
                                 ZK Secure crypto mixer is a powerful tool that can help users to increase
                                 the privacy and security of their cryptocurrency transactions. By mixing a
                                 users Ethereum in a homogenous pool, this tool can obfuscate the
@@ -239,10 +245,10 @@
 
         <section id="roadmap">
             <div class="container">
-                <h1 class="text-center mb-5 section-head">Our Roadmap</h1>
+                <h1 class="text-center mb-5 section-head" data-aos="fade" data-aos-duration="1000">Our Roadmap</h1>
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="roadmap-card">
+                        <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
                                 <li>- ✅ Platform development</li>
@@ -258,7 +264,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="roadmap-card">
+                        <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
                                 <li>- ✅ Platform development</li>
@@ -274,7 +280,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="roadmap-card">
+                        <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
                                 <li>- ✅ Platform development</li>
@@ -290,7 +296,7 @@
                         </div>
                     </div>
                     <div class="col-lg-3">
-                        <div class="roadmap-card">
+                        <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
                                 <li>- ✅ Platform development</li>
@@ -343,7 +349,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        AOS.init();
         $(window).scroll(function () {
             if ($(window).scrollTop() >= 50) {
                 $('.navbar').css('background', '#180D24');
