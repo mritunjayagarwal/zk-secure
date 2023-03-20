@@ -164,7 +164,7 @@ main {
 
 .roadmap-card {
     padding: 2rem;
-    border: 2px solid #fff;
+    border: 5px solid rgba(255,255,255,0.8);
     border-radius: 50px;
     backdrop-filter: blur(10px);
 }
@@ -175,7 +175,7 @@ main {
 
 .roadmap-card ul li {
     margin: 15px 0;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* Footer Section */
