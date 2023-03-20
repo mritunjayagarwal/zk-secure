@@ -5,7 +5,6 @@
 }
 
 body {
-    background: purple;
     color: #fff;
 }
 
@@ -13,7 +12,31 @@ section {
     padding: 100px 0;
 }
 
+main{
+    background: url(../img/main-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar li a{
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
 /* Hero Section */
+
+.hero-section{
+    background: url(../img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .hero-btn{
     width: 200px;
