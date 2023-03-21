@@ -146,6 +146,10 @@ main {
     transform: scale(1.03);
 }
 
+.touch-link:hover{
+    text-decoration: none;
+}
+
 /* About ZK Secure */
 
 .about-para {
