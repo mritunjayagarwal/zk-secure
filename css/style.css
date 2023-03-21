@@ -91,6 +91,7 @@ main {
 
 .hero-btn {
     transition: 0.2s ease-in;
+    color: #000;
 }
 
 .hero-btn,
