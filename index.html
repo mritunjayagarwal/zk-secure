@@ -218,7 +218,7 @@
                             <img src="./img/icons/6.png" class="eco-img" alt="">
                             <h2>ANTI-WHALE PROTOCOL</h2>
                             <p>ZK Secure has introduced a mechanism to prevent large-scale traders from holding more
-                                than 3% of the total tokens
+                                than 4% of the total tokens
                                 in a single wallet. This is a precautionary measure to prevent
                                 any individual from exerting excessive influence on the
                                 token's price by holding a substantial percentage of its
@@ -349,11 +349,7 @@
                           <li><span id="seconds"></span>Seconds</li>
                         </ul>
                       </div>
-                      <div id="content" class="emoji">
-                        <span>🥳</span>
-                        <span>🎉</span>
-                        <span>🎂</span>
-                      </div>
+                      <div id = "headline" class = "hero-main"></div>
                 </div>
                 <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -398,7 +394,7 @@
                 birthday = dayMonth + nextYear;
             }
             //end
-            console.log(new Date(Date.parse(birthday) + 1 * 11 * 60 * 60 * 1000));
+            // console.log(new Date(Date.parse(birthday) + 1 * 11 * 60 * 60 * 1000));
             const countDown = new Date(Date.parse(birthday) + 1 * 11 * 60 * 60 * 1000),
                 x = setInterval(function () {
 
@@ -413,6 +409,7 @@
                     //do something later when date is reached
                     if (distance < 0) {
                         document.getElementById("headline").innerText = "Welcome to ZK-Secure!";
+                        document.getElementById("exampleModalCenterTitle").innerText = "Launched";
                         document.getElementById("countdown").style.display = "none";
                         document.getElementById("content").style.display = "block";
                         clearInterval(x);
