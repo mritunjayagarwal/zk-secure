@@ -8,9 +8,10 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
 }
 
 section {
@@ -321,7 +322,6 @@ footer {
 
     .touch-card {
         height: 150px;
-        font-size: 1.3em;
     }
 
     .footer-list li {
