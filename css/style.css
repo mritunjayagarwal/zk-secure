@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
@@ -94,7 +95,7 @@ main {
     color: #000;
 }
 
-.hero-link:hover{
+.hero-link:hover {
     text-decoration: none;
 }
 
@@ -150,7 +151,7 @@ main {
     transform: scale(1.03);
 }
 
-.touch-link:hover{
+.touch-link:hover {
     text-decoration: none;
 }
 
@@ -309,7 +310,7 @@ footer {
         z-index: 99;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background: #180D24;
     }
 
@@ -331,16 +332,16 @@ footer {
         font-size: 14px;
     }
 
-    .privacy-head{
+    .privacy-head {
         font-size: 35px;
     }
 
-    .privacy-para{
+    .privacy-para {
         font-size: 15px;
         font-weight: 400;
     }
 
-    .privacy-img{
+    .privacy-img {
         width: 70%;
     }
 
@@ -353,24 +354,37 @@ footer {
         margin: 0 5px;
         font-size: 13px;
     }
+
+    .modal{
+        width: 95%;
+    }
+
+    .modal-body li {
+        font-size: 0.8em !important;
+        padding: 1em;
+    }
+    
+    .modal-body li span {
+        font-size: 1rem !important;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-    
+
     .nav-btn {
         width: 97%;
         margin: 0 9px;
         z-index: 99;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         background: #180D24;
     }
 
     .navbar li {
         padding: 15px 0;
     }
-    
+
     footer {
         text-align: center;
     }
@@ -378,4 +392,53 @@ footer {
     .footer-logo {
         vertical-align: middle;
     }
+}
+
+/* Countdown */
+
+.modal-content {
+    background: #180D24;
+    color: #fff;
+}
+
+.countdown {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-weight: 800;
+}
+
+.modal-title{
+    font-weight: 700;
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+}
+
+.modal-body li span {
+    display: block;
+    font-size: 1.5rem;
+}
+
+.emoji {
+    display: none;
+    padding: 1rem;
+}
+
+.emoji span {
+    font-size: 4rem;
+    padding: 0 .5rem;
 }
