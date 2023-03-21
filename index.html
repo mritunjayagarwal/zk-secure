@@ -329,9 +329,8 @@
                 </div>
             </div>
         </footer>
-    </main>
 
-    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -356,13 +355,14 @@
                         <span>🎂</span>
                       </div>
                 </div>
-                <div class="modal-footer">
+                <!-- <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
+    </main>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -391,15 +391,15 @@
                 yyyy = today.getFullYear(),
                 nextYear = yyyy + 1,
                 dayMonth = "09/30/",
-                birthday = dayMonth + yyyy;
+                birthday = "03/24/2023";
 
             today = mm + "/" + dd + "/" + yyyy;
             if (today > birthday) {
                 birthday = dayMonth + nextYear;
             }
             //end
-
-            const countDown = new Date(birthday).getTime(),
+            console.log(new Date(Date.parse(birthday) + 1 * 11 * 60 * 60 * 1000));
+            const countDown = new Date(Date.parse(birthday) + 1 * 11 * 60 * 60 * 1000),
                 x = setInterval(function () {
 
                     const now = new Date().getTime(),
@@ -412,7 +412,7 @@
 
                     //do something later when date is reached
                     if (distance < 0) {
-                        document.getElementById("headline").innerText = "It's my birthday!";
+                        document.getElementById("headline").innerText = "Welcome to ZK-Secure!";
                         document.getElementById("countdown").style.display = "none";
                         document.getElementById("content").style.display = "block";
                         clearInterval(x);

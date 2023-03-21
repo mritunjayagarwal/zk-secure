@@ -13,6 +13,8 @@ body {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 section {
@@ -356,7 +358,7 @@ footer {
     }
 
     .modal{
-        width: 95%;
+        width: 100%;
     }
 
     .modal-body li {
