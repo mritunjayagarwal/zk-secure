@@ -94,6 +94,10 @@ main {
     color: #000;
 }
 
+.hero-link:hover{
+    text-decoration: none;
+}
+
 .hero-btn,
 .btn-grad {
     width: 200px;
