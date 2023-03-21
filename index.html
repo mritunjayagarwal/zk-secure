@@ -17,7 +17,7 @@
 <body>
 
     <header class="hero-section">
-        <nav class="navbar navbar-expand-lg fixed-top py-3 m-0">
+        <nav class="navbar navbar-expand-lg py-3 m-0" style = "position: absolute; top: 0; left: 0; right: 0;">
             <!-- Container wrapper -->
             <!-- Navbar brand -->
             <a class="navbar-brand me-2" href="#">
@@ -34,29 +34,29 @@
             <div class="collapse navbar-collapse text-white" id="navbarText">
                 <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#" class="px-3 pt-2 btn-link">
+                        <a href="#about" class="px-3 pt-2 btn-link">
                             About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="px-3 pt-2 btn-link">
+                        <a href="#ecosystem" class="px-3 pt-2 btn-link">
                             Ecosystem
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#buy" class="px-3 pt-2 btn-link">
+                        <a href="#roadmap" class="px-3 pt-2 btn-link">
                             Roadmap
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#bott" class="px-3 pt-2 btn-link">
+                        <a href="#tokenomics" class="px-3 pt-2 btn-link">
                             Utility
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="">
-                            <button type="button" class="px-3 btn pt-2 px-5 uni-btn" data-toggle="modal"
-                                data-target="#exampleModal" style="font-size: 15px;margin-top: -8px; font-weight: 600;">
+                            <button type="button" class="px-3 btn pt-2 px-5 nav-btn" data-toggle="modal"
+                                data-target="#exampleModal">
                                 Buy on Uniswap
                             </button>
                         </a>
@@ -71,8 +71,8 @@
                 <div class="text-center">
                     <h2 class="hero-tag" data-aos="fade" data-aos-duration="1000">ZK SECURE</h2>
                     <h1 class="hero-main" data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Privacy at Your Fingertips</h1>
-
-                    <p data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Contract : 0x8790f2fc7Ca2e7Db841307FB3f4e72a03Baf7b47</p>
+                    <p class = "hero-para mx-auto">Welcome to ZK Secure, a cryptocurrency project that utilizes the power of zero-knowledge proofs to enable trustless, anonymous payments for crypto users.</p>
+                    <p data-aos="fade" data-aos-duration="1000" data-aos-delay="400">Contract : <span class = "contract" style = "word-wrap: break-word;">0x8790f2fc7Ca2e7Db841307FB3f4e72a03Baf7b47</span></p>
 
                     <div class="d-flex justify-content-center">
                         <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
@@ -93,32 +93,32 @@
                 <h1 class="text-center section-head" data-aos="fade" data-aos-duration="1000">Get in touch</h1>
                 <div class="">
                     <div class="row d-flex justify-content-center" data-aos="zoom-out" data-aos-duration="1000" >
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-telegram"></i> Telegram</p>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-twitter"></i> Twitter</p>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-medium"></i> Medium</p>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-envelope"></i> Mail</p>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-telegram"></i> Dextools</p>
                             </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-3 col-md-6 col-6">
                             <div class="touch-card">
                                 <p><i class="fa fa-telegram"></i> Etherscan</p>
                             </div>
@@ -145,12 +145,12 @@
                     </div>
                     <div class="col-lg-6 py-3">
                         <div class="tokenomics-main">
-                            <h1 class="hero-main text-center" data-aos="fade" data-aos-duration="1000" data-aos-delay="1100">TOKENOMICS</h1>
-                            <div class="d-flex justify-content-center mt-5" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1200">
+                            <h1 class="hero-main text-center">TOKENOMICS</h1>
+                            <div class="d-flex justify-content-around mt-5">
                                 <div class="toke-item">
                                     <img src="./img/icons/1.png" class="toke-img" alt="">
-                                    <h2 class="hero-tag">1 Billion</h2>
-                                    <p>Total Supply</p>
+                                    <h2 class="hero-tag text-center">1 Billion</h2>
+                                    <p class = "text-center">Total Supply</p>
                                 </div>
                                 <div class="toke-item">
                                     <img src="./img/icons/4.png" class="toke-img" alt="">
@@ -168,7 +168,7 @@
             <div class="container">
                 <h1 class="text-center section-head" data-aos="fade" data-aos-duration="1000">ECOSYSTEM</h1>
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <div class="eco-card">
                             <img src="./img/icons/3.png" class="eco-img" alt="">
                             <h2>ZK-SNARK PROTOCOL</h2>
@@ -179,7 +179,7 @@
                                 be readily verified by third parties.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <div class="eco-card">
                             <img src="./img/icons/4.png" class="eco-img" alt="">
                             <h2>SUSTAINABLE ECOSYSTEM</h2>
@@ -191,7 +191,7 @@
                                 </p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <div class="eco-card">
                             <img src="./img/icons/5.png" class="eco-img" alt="">
                             <h2>ZK-SECURE MULTICHAIN MIXER</h2>
@@ -203,7 +203,7 @@
                                 transaction.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 col-md-6 mb-4">
                         <div class="eco-card">
                             <img src="./img/icons/6.png" class="eco-img" alt="">
                             <h2>ANTI-WHALE PROTOCOL</h2>
@@ -221,7 +221,7 @@
         <section id="privacy">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8 d-flex align-items-center">
+                    <div class="col-lg-8 col-md-7 d-flex align-items-center">
                         <div>
                             <h1 class="section-head">
                                 Incomparable privacy
@@ -238,7 +238,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-5 d-flex align-items-center justify-content-center">
                         <img src="./img/icons/7.png" class="img-fluid" alt="">
                     </div>
                 </div>
@@ -249,7 +249,7 @@
             <div class="container">
                 <h1 class="text-center mb-5 section-head" data-aos="fade" data-aos-duration="1000">Our Roadmap</h1>
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
@@ -265,7 +265,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
@@ -281,7 +281,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
@@ -297,7 +297,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-6">
                         <div class="roadmap-card" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
                             <h2>2021 Q1</h2>
                             <ul style="list-style-type: none;">
@@ -321,21 +321,21 @@
         <footer>
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-1">
-                        <img src="./img/logo.png" style="width: 30px; height: auto;margin-top: -10px" alt="">
+                    <div class="col-lg-3">
+                        <img src="./img/logo.png" class = "footer-logo" alt=""> ZK-Secure
                     </div>
-                    <div class="col-lg-8 d-flex justify-content-center">
+                    <div class="col-lg-6 d-flex justify-content-center">
                         <ul class="footer-list">
-                            <li>Telegram</li>
-                            <li>Twitter</li>
-                            <li>Medium</li>
-                            <li>Etherscan</li>
-                            <li>Mixer</li>
+                            <li><a href = "#">Telegram</a></li>
+                            <li><a href = "#">Twitter</a></li>
+                            <li><a href = "#">Medium</a></li>
+                            <li><a href = "#">Etherscan</a></li>
+                            <li><a href = "#">Mixer</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 d-flex justify-content-center align-items-center">
-                        <button class="footer-btn">Hi</button>
-                        <button class="footer-btn">Hi</button>
+                        <button class="footer-btn">Buy</button>
+                        <button class="footer-btn">Chart</button>
                     </div>
                 </div>
             </div>
@@ -354,13 +354,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-        $(window).scroll(function () {
-            if ($(window).scrollTop() >= 50) {
-                $('.navbar').css('background', '#180D24');
-            } else {
-                $('.navbar').css('background', 'transparent');
-            }
-        });
     </script>
 </body>
 

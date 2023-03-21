@@ -17,7 +17,7 @@ section {
     padding: 100px 0;
 }
 
-.section-head{
+.section-head {
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 50px;
@@ -31,6 +31,7 @@ main {
 
 .navbar {
     transition: 0.5s;
+    z-index: 99;
 }
 
 .navbar li a {
@@ -38,20 +39,28 @@ main {
     transition: 0.3s;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
     color: pink;
     text-decoration: none;
 }
 
-.navbar li a:active, .navbar li a:visited{
+.navbar li a:active,
+.navbar li a:visited {
     text-decoration: none;
 }
 
 .navbar-brand {
     color: #fff;
 }
+
 .navbar-brand:hover {
     color: #fff;
+}
+
+.nav-btn {
+    font-size: 15px;
+    margin-top: -8px;
+    font-weight: 600;
 }
 
 /* Hero Section */
@@ -66,15 +75,19 @@ main {
     justify-content: center;
 }
 
-.hero-tag{
+.hero-tag {
     font-weight: 600;
 }
 
-.hero-main{
+.hero-main {
     font-weight: 700 !important;
 }
 
-.hero-btn{
+.hero-para {
+    width: 80%;
+}
+
+.hero-btn {
     transition: 0.2s ease-in;
 }
 
@@ -90,12 +103,12 @@ main {
     border: 1px solid pink;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     margin-top: 2px;
 }
 
 .btn-grad {
-    background-image: linear-gradient(to right, #8754C8 0%, #EC6EAD  51%, #8754C8  100%);
+    background-image: linear-gradient(to right, #8754C8 0%, #EC6EAD 51%, #8754C8 100%);
     transition: 0.5s;
     background-size: 200% auto;
     color: #fff;
@@ -126,37 +139,37 @@ main {
     transition: 0.2s ease-in;
 }
 
-.touch-card:hover{
-    margin-top: 10px;
+.touch-card:hover {
+    transform: scale(1.03);
 }
 
 /* About ZK Secure */
 
-.about-para{
+.about-para {
     font-weight: 700;
 }
 
-.tokenomics-main{
+.tokenomics-main {
     border-left: 5px solid #fff;
     height: 100%;
     padding: 0 1em;
 }
 
-.toke-item{
+.toke-item {
     padding: 1rem;
 }
 
-.toke-item > h2 {
+.toke-item>h2 {
     font-size: 25px !important;
     margin-top: 15px;
     margin-bottom: -0px;
 }
 
-.toke-item > p {
+.toke-item>p {
     font-size: 22px;
 }
 
-.toke-img{
+.toke-img {
     width: 100px;
     height: auto;
 }
@@ -169,16 +182,15 @@ main {
     width: 100%;
     border-radius: 50px;
     border: 3px solid pink;
-    margin-top: 30px;
-    height: 380px;
+    height: 100%;
     transition: 0.2s ease-out;
 }
 
-.eco-card:hover{
+.eco-card:hover {
     transform: scale(1.03);
 }
 
-.eco-card > h2{
+.eco-card>h2 {
     font-weight: 700;
     margin-top: 20px;
     font-size: 25px;
@@ -191,12 +203,12 @@ main {
 
 /* Privacy */
 
-#privacy{
+#privacy {
     padding: 50px 0 50px 0;
     background: rgb(174, 89, 219, 0.5);
 }
 
-.privacy-para{
+.privacy-para {
     margin-top: -30px;
     /* font-size: 17px; */
     font-weight: 600;
@@ -212,12 +224,13 @@ main {
 
 .roadmap-card {
     padding: 2rem;
-    border: 5px solid rgba(255,255,255,0.8);
+    border: 5px solid rgba(255, 255, 255, 0.8);
     border-radius: 50px;
     backdrop-filter: blur(10px);
+    margin-top: 20px;
 }
 
-.roadmap-card > h2{
+.roadmap-card>h2 {
     font-weight: 600;
 }
 
@@ -233,13 +246,112 @@ footer {
     background: #180D24;
 }
 
+.footer-logo {
+    width: 30px;
+    height: auto;
+    margin-top: -10px
+}
+
 .footer-list li {
     display: inline;
     margin: 0 10px;
 }
 
+.footer-list li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.footer-list li a:hover {
+    color: pink;
+}
+
 .footer-btn {
     border-radius: 10px;
-    margin: -10px 10px 0 10px !important;
+    margin: -10px 10px 5px 10px !important;
     width: 120px;
+    background: #180D24;
+    font-weight: 600;
+    font-size: 15px;
+    outline: none;
+    color: pink;
+    border: 1px solid pink;
+    transition: 0.2s ease-in;
+}
+
+.footer-btn:hover {
+    background: #fff;
+    color: #180D24;
+}
+
+@media only screen and (max-width: 667px) {
+
+    section {
+        padding: 50px 0;
+    }
+
+    .nav-btn {
+        width: 95%;
+        margin: 0 9px;
+        z-index: 99;
+    }
+
+    .navbar-collapse{
+        background: #180D24;
+    }
+
+    .navbar li {
+        padding: 10px 0;
+    }
+
+    .hero-para {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .hero-btn,
+    .btn-grad {
+        width: 170px;
+    }
+
+    .contract {
+        font-size: 14px;
+    }
+
+    .touch-card {
+        height: 150px;
+        font-size: 1.3em;
+    }
+
+    .footer-list li {
+        display: inline;
+        margin: 0 5px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    
+    .nav-btn {
+        width: 97%;
+        margin: 0 9px;
+        z-index: 99;
+    }
+
+    .navbar-collapse{
+        background: #180D24;
+    }
+
+    .navbar li {
+        padding: 15px 0;
+    }
+    
+    footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        vertical-align: middle;
+    }
 }
